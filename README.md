@@ -37,3 +37,37 @@ This tool is for educational and testing purposes only. It does not guarantee an
 No Twitch login or API access required.
 
 Pickup-only bot — does not run in the cloud or external environments.
+
+📥 Installation Instructions
+Download the latest .zip from the Releases section
+
+Extract the contents using 7-Zip, WinRAR, or your preferred archive tool
+
+Open the extracted folder — likely named PrimeEctoBot2.0
+
+Double-click install.bat
+
+This will automatically install all required Python dependencies
+
+Once the setup finishes, double-click run.bat to launch the bot
+
+▶️ How to Use
+Once launched:
+
+Select a Proxy Server
+
+Recommended: CroxyProxy.com
+
+Enter your Twitch channel name (e.g. PrimeEcto)
+
+Enter the number of viewers you want to simulate
+
+Choose whether to run in Headless Mode (windows hidden)
+
+Select Stealth or Rapid mode
+
+Stealth = more realistic, gradual loading
+
+Rapid = all at once, faster but heavier
+
+The bot will then launch Chrome windows or tabs and simulate viewers on your Twitch stream.
