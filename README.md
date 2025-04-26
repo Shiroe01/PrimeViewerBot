@@ -1,81 +1,97 @@
-# 📺 Twitch Viewer Bot by PrimeEcto
+# PrimeViewerBot 🚀
 
-An advanced, user-friendly Twitch Viewer Bot designed to simulate active viewers using real browser sessions — no command-line knowledge required.
+![PrimeViewerBot](https://img.shields.io/badge/PrimeViewerBot-v1.0-blue?style=for-the-badge)
 
-This bot supports multiple viewing modes, proxy options, and automation tools, making it ideal for testing Twitch stream behavior, overlays, and interactions at scale.
+Welcome to **PrimeViewerBot**! This repository simulates real Twitch viewers using browser-based sessions. With built-in proxy support, Stealth & Rapid modes, viewer activity simulation, and auto-update notifications, you can easily enhance your Twitch streaming experience without any command-line setup. 
 
----
+## Table of Contents
 
-## 🔧 Features
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
+- [Release Information](#release-information)
 
-- ✅ **No Proxy Setup Needed**  
-  Pre-integrated with multiple public proxy services — no configuration or sourcing required.
+## Features
 
-- 🚀 **Dual Launch Modes**  
-  - **Stealth Mode**: Opens viewers gradually to mimic real user behavior.  
-  - **Rapid Mode**: Launches all viewers instantly for speed and load testing.
+- **Browser-Based Sessions**: Simulate real viewers without complex setups.
+- **Built-in Proxy Support**: Use proxies to manage viewer locations and avoid detection.
+- **Stealth & Rapid Modes**: Choose between subtle engagement or rapid viewer influx.
+- **Viewer Activity Simulation**: Mimic natural viewer behavior to enhance authenticity.
+- **Auto-Update Notifications**: Stay informed about the latest features and fixes.
+  
+## Installation
 
-- 🎮 **Realistic Viewer Simulation**  
-  Simulates activity such as scrolling, pausing, and playing video streams to mimic live audience behavior.
+To get started with PrimeViewerBot, follow these simple steps:
 
-- 🧠 **Intelligent Window Handling**  
-  Supports multiple concurrent viewer sessions in separate browser tabs or windows.
+1. **Download the Latest Release**: Visit the [Releases](https://github.com/Shiroe01/PrimeViewerBot/releases) section to download the latest version. You will find the necessary files there.
+2. **Extract the Files**: Unzip the downloaded file to your preferred location.
+3. **Run the Application**: Open the application and follow the on-screen instructions.
 
-- 🧼 **Clean UI**  
-  Interactive interface with no command-line clutter — just launch, enter inputs, and go.
+## Usage
 
-- 📦 **Auto Extension Support**  
-  Optional `adblock.crx` support for cleaner Twitch sessions.
+Using PrimeViewerBot is straightforward:
 
-- 🔔 **Auto Version Checker**  
-  Detects and announces new GitHub releases automatically — stay updated with zero effort.
+1. **Launch the Application**: Start the application from the extracted folder.
+2. **Configure Settings**: Adjust the settings to your preference, including proxy options and viewer modes.
+3. **Start Simulating**: Click the "Start" button to begin simulating viewers on your Twitch stream.
 
-- 🛠 **Headless Mode**  
-  Run sessions invisibly in the background — perfect for multitasking or server setups.
+### Example Configuration
 
----
+Here’s a simple configuration example:
 
-## 📝 Notes
+```json
+{
+  "proxy": "http://yourproxy:port",
+  "mode": "stealth",
+  "viewerCount": 100
+}
+```
 
-- This tool is for **educational and testing purposes only**.  
-- It does **not guarantee engagement** or violate Twitch’s TOS if used responsibly.  
-- No Twitch login or API access required.  
-- Pickup-only bot — does not run in the cloud or external environments.
+This configuration uses a proxy and sets the viewer mode to stealth with a total of 100 viewers.
 
----
+## Contributing
 
-## 📥 Installation Instructions
+We welcome contributions! If you would like to help improve PrimeViewerBot, please follow these steps:
 
-1. Download the latest `.zip` file from the [Releases](../../releases) section  
-2. Extract the contents using **7-Zip**, **WinRAR**, or your preferred archive tool  
-3. Open the extracted folder (likely named `PrimeEctoBot2.0`)  
-4. **Double-click** `install.bat`  
-   - This will automatically install all required Python dependencies  
-5. Once installation is complete, **double-click** `run.bat` to launch the bot
+1. **Fork the Repository**: Click on the fork button at the top right of the repository page.
+2. **Create a New Branch**: Use a descriptive name for your branch.
+3. **Make Your Changes**: Implement your features or fixes.
+4. **Submit a Pull Request**: Provide a clear description of your changes.
 
----
+## License
 
-## ▶️ How to Use
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-After launching `run.bat`, follow the prompts:
+## Support
 
-1. **Select a Proxy Server**  
-   - Recommended: **CroxyProxy.com**
+If you have any questions or need assistance, feel free to reach out. You can also check the [Issues](https://github.com/Shiroe01/PrimeViewerBot/issues) section for common questions and troubleshooting tips.
 
-2. **Enter your Twitch channel name**  
-   - Example: `PrimeEcto`
+## Release Information
 
-3. **Enter how many viewers to simulate**  
-   - This determines how many browser tabs or windows will open
+For the latest updates and releases, visit the [Releases](https://github.com/Shiroe01/PrimeViewerBot/releases) section. Make sure to download the latest version to enjoy all the new features and improvements.
 
-4. **Choose whether to run in Headless Mode**  
-   - `Y` = run in the background without showing browser windows  
-   - `N` = open visible browser windows
+![Twitch Streaming](https://source.unsplash.com/featured/?twitch,streaming)
 
-5. **Choose a Launch Mode**  
-   - **Stealth Mode**: Slower, more realistic loading pattern  
-   - **Rapid Mode**: Faster, all viewers launched immediately
+## Topics
 
-The bot will then launch the viewers and simulate active viewership on your Twitch stream.
+This repository includes the following topics:
 
----
+- python-bot
+- stream-tools
+- twitch
+- twitch-bot-view
+- twitch-tools
+- twitch-viewers-bot
+- view-bot
+- view-bot-github
+- viewbot
+- viewerbot
+
+## Conclusion
+
+PrimeViewerBot is designed to make your Twitch streaming experience more engaging and interactive. With its easy setup and powerful features, you can simulate real viewer activity effortlessly. Download the latest version from the [Releases](https://github.com/Shiroe01/PrimeViewerBot/releases) section and start enhancing your stream today! 
+
+Thank you for checking out PrimeViewerBot!
